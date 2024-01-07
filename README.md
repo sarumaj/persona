@@ -27,3 +27,9 @@ $ pip install -r requirements.txt
 <!--- https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS -->
 
 3. Create a folder a folder `weights` and place the [Real-ESRGAN weight](https://1drv.ms/f/s!AryV_R9880sVgqF-Y2Q3AzImizcmag?e=2YeKtJ) files in there
+
+# Run
+
+```Bash
+python persona.py
+```
