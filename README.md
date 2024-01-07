@@ -31,5 +31,5 @@ $ pip install -r requirements.txt
 # Run
 
 ```Bash
-python persona.py
+$ python persona.py
 ```
