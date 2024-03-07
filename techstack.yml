@@ -1,0 +1,333 @@
+repo_name: sarumaj/persona
+report_id: fabdbd1b82953dc0831463afe7173502
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-07T17:31:15+00:00'
+requested_by: sarumaj
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/sarumaj/persona
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/sarumaj/persona
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sarumaj/persona
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: scikit-image
+  description: Image processing in Python
+  website_url: http://scikit-image.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: CUDA
+  description: It provides everything you need to develop GPU-accelerated applications
+  website_url: http://www.nvidia.com/object/cuda_home_new.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2836/LUOWehvo_400x400.jpeg
+  detection_source_url: https://github.com/sarumaj/persona
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: gdown
+  description: Google Drive direct download of big files
+  package_url: https://pypi.org/project/gdown
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: humanize
+  description: Python humanize utilities
+  package_url: https://pypi.org/project/humanize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20018/default_8ec0d1f9ddf0a2b7aab003c2af38b977b2f2b1e9.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-24 07:12:56.000000000 Z
+- name: imageio
+  description: Library for reading and writing a wide range of image
+  package_url: https://pypi.org/project/imageio
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20258/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: inflect
+  description: Correctly generate plurals
+  package_url: https://pypi.org/project/inflect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20130/default_5c04115b22cdadfa4cb3de74c5ab15c454f7c405.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-24 16:41:55.000000000 Z
+- name: librosa
+  description: Python module for audio and music processing
+  package_url: https://pypi.org/project/librosa
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: lmdb
+  description: Universal Python binding for the LMDB 'Lightning' Database
+  package_url: https://pypi.org/project/lmdb
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20562/default_acd72e90bcffc18d119d7e93187082bfa99dbd62.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: mutagen
+  description: Read and write audio tags for many formats
+  package_url: https://pypi.org/project/mutagen
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20097/default_bb71ed9a6e40745c6e8fdd974744dc298eebc0f4.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-24 07:12:56.000000000 Z
+- name: numba
+  description: Compiling Python code using LLVM
+  package_url: https://pypi.org/project/numba
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20053/default_9f5ca9b3fcd68c068d4026e56ab738e8e865691f.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: pathos
+  description: Parallel graph management and execution in heterogeneous computing
+  package_url: https://pypi.org/project/pathos
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20414/default_834dddd57f7b1404b19fa6cd08f22a7da3156be5.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: progressbar
+  description: Text progress bar library for Python
+  package_url: https://pypi.org/project/progressbar
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-24 16:41:55.000000000 Z
+- name: torchvision
+  description: Image and video datasets and models for torch deep learning
+  package_url: https://pypi.org/project/torchvision
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20377/default_86c41789cbd5dc6b872b122419740f58f5d2f18a.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/face_vid2vid/GPEN/requirements.txt
+  detection_source: face_vid2vid/GPEN/requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-20 17:18:09.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: sausheong
+  last_updated_on: 2023-12-24 16:41:55.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/sarumaj/persona/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Chang Sau Sheong
+  last_updated_on: 2023-12-19 15:44:29.000000000 Z
